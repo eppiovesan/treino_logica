@@ -33,7 +33,7 @@ function removePontuacoes(texto){
 
 function divideTexto (texto){
     let texto_dividido = []
-    palavra = ''
+    let palavra = ''
 
     for (let i=0; i < texto.length; i++)
         if (texto[i] != ' ') {
@@ -51,7 +51,7 @@ function divideTexto (texto){
     return texto_dividido
 }
 
-function verficaPalavraMaisFrequente(texto){
+function verificaPalavraMaisFrequente(texto){
     let texto_novo = ''
     let palavras = []
     let palavra_nome = []
@@ -97,4 +97,4 @@ function verficaPalavraMaisFrequente(texto){
 }
 
 let texto = "Testar, testar e testar! Errar faz parte; testar ensina."
-verficaPalavraMaisFrequente(texto)
+verificaPalavraMaisFrequente(texto)
